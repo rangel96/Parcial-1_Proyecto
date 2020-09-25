@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/sb-admin-2.min.css",
+              "src/assets/vendor/fontawesome-free/css/all.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "proyectoPaco"
+    }
+  },
+  "defaultProject": "proyectoPaco",
+  "cli": {
+    "analytics": "4a65caec-b6f6-4dac-a5da-9aba210a0bd2"
+  }
 }
