@@ -29,7 +29,7 @@ const APP_ROUTES: Routes = [
   { path: 'pages/blankpage', component: BlankpageComponent },
   { path: 'charts', component: ChartsComponent },
   { path: 'tables', component: TablesComponent },
-  // { path: '#', pathMatch: 'full', redirectTo: 'home' }, // Cuando no encuentra algo se redirecciona al Home
+  { path: '', pathMatch: 'full', redirectTo: 'home' }, // Cuando no encuentra algo se redirecciona al Home
   { path: '**', pathMatch: 'full', redirectTo: 'pages/nopagefound' } // Cuando no encuentra algo se redirecciona al Home
 ];
 
